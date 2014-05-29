@@ -109,7 +109,7 @@ public class MainActivity extends Activity {
 		if (savedInstanceState != null) {
 			webView.restoreState(savedInstanceState);
 		} else {
-			webView.loadUrl("file:///android_asset/index.html");
+			webView.loadUrl("file:///android_asset/game/2048/index.html");
 		}
 		Toast.makeText(getApplication(), R.string.toggle_fullscreen, Toast.LENGTH_SHORT).show();
 		webView.setOnTouchListener(new OnTouchListener() {
